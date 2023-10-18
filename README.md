@@ -1,0 +1,1 @@
+# multitenancy-store-front-schema
