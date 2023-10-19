@@ -27,12 +27,20 @@ Create  following db in your postgres db
 # Why above DB required
 1. Product:
 This db will store all information reagarding product, product bought by customer or payment  and billing details as per business need . For now only basic detail have been added , other info can be added based on business need.
+
+
 2.Customer-support
 For every product bought by cusomter(electronic, hardware,software), tracking of support provided to cusotmer can be handled through this and can be verifed weather issue resolved or not and will be used to anaylse , understand and build trust in our cusomter.
+
+
 3.User
 This DB will contain all the users info(cusomer, employee, admin). Through this db various application access, user detail, or store confirgration will be handled
+
+
 4. Notification:
 This db will be primerly used for every user to provide various services through email,sms, or notification depending upon business need
+
+
 5.Audit-log: 
 It is for our intenral use to track logs for very produc and user .
 # Other solution for dynamic setup of every store onboarding.
