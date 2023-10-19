@@ -1,0 +1,22 @@
+{
+    "defaultEnv": "master",
+    "master": {
+      "driver": "cassandra",
+      "host": {
+        "ENV": "STORE_DB_HOST"
+      },
+      "port": {
+        "ENV": "STORE_DB_PORT"
+      },
+      "user": {
+        "ENV": "STORE_DB_USER"
+      },
+      "password": {
+        "ENV": "STORE_DB_PASSWORD"
+      },
+      "database": {
+        "ENV": "STORE_DB_DATABASE"
+      }
+    },
+    "sql-file": true
+}
